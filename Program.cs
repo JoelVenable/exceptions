@@ -1,12 +1,13 @@
 ﻿using System;
 
-namespace exceptions
+namespace Exceptions
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var calculator = new Calculator();
+
         }
     }
 }
