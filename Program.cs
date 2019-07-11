@@ -9,9 +9,11 @@ namespace Exceptions
 
             try
             {
-            var calculator = new Calculator();
-            int answer = calculator.Divide(42, 0);
-            Console.WriteLine($"THe answer is {answer}");
+                var calculator = new Calculator();
+                Console.WriteLine($"Does this work??");
+
+                int answer = calculator.Divide(42, 0);
+                Console.WriteLine($"THe answer is {answer}");
             }
             catch (DivideByZeroException ex)
             {
